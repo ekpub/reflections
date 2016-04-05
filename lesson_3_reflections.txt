@@ -1,29 +1,57 @@
 When would you want to use a remote repository rather than keeping all your work
 local?
 
-    Fill in your answer here
+    You would want to use a remote repository when collaborating on a project
+    with a team. Remote repositories allow for an easy method of sharing code
+    among groups.
+
 
 Why might you want to always pull changes manually rather than having Git
 automatically stay up-to-date with your remote repository?
 
-    Fill in your answer here
+    You might want to pull changes manually in case the remote repository has been
+    updated by another team member. You would want to see what changes have been
+    made to the master since your last pull. These changes to the remote repository
+    may not be apparent to you if it was done automatically by Git.
+
 
 Describe the differences between forks, clones, and branches.  When would you
 use one instead of another?
 
-    Fill in your answer here
+    Clone recreates a remote repository on to your local system. You would use this
+    feature when you want to modify a remote repository on your local machine.
+
+    Branch allows you to diverge from a local repository's master branch. You would
+    use this feature when implementing new code. Any changes or additions to an
+    branch is isolated from the master.
+
+    Fork is a Github feature that is similar to creating a branch from an existing
+    repository on Github. You use this feature when you want to modify someone else's
+    Github project. Changes to your fork will be isolated from the source repository.
+
 
 What is the benefit of having a copy of the last known state of the remote
 stored locally?
 
-    Fill in your answer here
+    If you had issues connecting to the internet and had to work offline, a copy of
+    the last known state of the remote on your local system can be a major benefit to
+    be keep your workflow going.
+
 
 How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?
 
-    Fill in your answer here
+    If I had to collaborate with a team without using Git or GitHub, it would be a
+    long and strenuous task. We would possibly have to email each other our work and
+    go thru every line of change together, or work face to face. Every single
+    modification will have to be resent to each team member throughout the day. Git and
+    GitHub makes collaborating a much easier undertaking.
+
 
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
 
-    Fill in your answer here
+    When you are collaborating with a team, it makes sense to always work on a separate
+    branch. In case a member's code creates a bug or causes a conflict with your code, it
+    can be resolved before the merge to make sure the master branch contains only
+    operational code.
